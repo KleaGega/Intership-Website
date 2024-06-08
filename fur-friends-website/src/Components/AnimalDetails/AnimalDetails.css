@@ -1,0 +1,11 @@
+.animal-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.animal-details img {
+  max-width: 100%; 
+  height: auto;
+}

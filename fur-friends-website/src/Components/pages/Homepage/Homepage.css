@@ -1,0 +1,61 @@
+.main_container {
+  margin-top: 20px;
+  background-color: rgba(21, 20, 34, 0.774);
+  padding: 15px;
+  color: #fff;
+  justify-content: start;
+  text-align: start;
+}
+.main_container h1 {
+  text-align: center;
+}
+.main_container:hover h1{
+  color: black;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.carousel-item {
+  height: 80vh;
+  min-height: 400px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+.carousel-caption h4 {
+  width: 1000px;
+  color: #eeeeee;
+  font-weight: 800;
+}
+h4:hover {
+  background-color: #000;
+  transition: .3s;
+  padding: 10px;
+}
+
+
+
+.content {
+  text-align: center;
+}
+.facts-container {
+  background-color: rgba(250, 235, 215, 0.336);
+  margin-top: 8px;
+}
+@media (max-width: 768px) {
+    .main_container h1 {
+      font-size: 24px;
+    }
+    
+    .main_container h5 {
+      font-size: 14px;
+    }
+  }
+  

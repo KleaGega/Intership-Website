@@ -1,0 +1,47 @@
+.gallery-container {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+
+}
+
+.animal-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  padding: 30px;
+}
+
+.animal-card:hover {
+  transform: scale(1.05);
+}
+.search-bar {
+    width: 300px;
+}
+.animal-card img {
+  width: 100%;
+  height: auto;
+
+}
+
+.card-details {
+  padding: 15px;
+}
+
+.card-details h3 {
+  margin-top: 0;
+}
+
+.card-details p {
+  margin: 5px 0;
+}
+.imageGallery {
+  border-radius: 0;
+}

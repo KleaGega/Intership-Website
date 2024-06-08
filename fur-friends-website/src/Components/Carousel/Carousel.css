@@ -1,0 +1,75 @@
+.background-image {
+  height: 100vh;
+  color: #fff;
+  background-image: url('../Assets/animal-pets-bird-cat.jpg');
+  background-size: cover; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-item {
+  height: 80vh;
+  min-height: 400px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+.carousel-caption h4 {
+  width: 1000px;
+  color: #eeeeee;
+  font-weight: 800;
+}
+h4:hover {
+  background-color: #000;
+  transition: .3s;
+  padding: 10px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 0rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+.content {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .carousel-item {
+      height: 70vh;
+    }
+  
+    .carousel-caption h4 {
+      font-size: 0.9rem; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item {
+      height: 60vh;
+    }
+  
+    .carousel-caption h4 {
+      font-size: 0.8rem; 
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel-item {
+      height: 50vh;
+    }
+  
+    .carousel-caption h4 {
+      font-size: 0.7rem;
+      padding: 5px;
+    }
+  }
+  
+  
